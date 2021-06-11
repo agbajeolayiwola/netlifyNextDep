@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "npm run dev"
+  command = "np run build"
   functions = "netlify/functions"
   publish = "out"
 
