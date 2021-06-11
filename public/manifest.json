@@ -1,0 +1,23 @@
+{
+    "name": "Next BluePrint ",
+    "short_name": "NBP",
+    "icons": [
+      {
+        "src": "/nextJsTestIcon-removebg-preview.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+  
+      {
+        "src": "/nextJsTestIcon-removebg-preview.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "prefer_related_applications":"true"
+  }
