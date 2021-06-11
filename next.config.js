@@ -5,6 +5,6 @@ module.exports = withPWA({
     dest: "public",
     register: true,
     skipWaiting: true,
-    target: 'serverless',
+    distDir: 'out',
   },
 });
