@@ -5,6 +5,5 @@ module.exports = withPWA({
     dest: "out",
     register: true,
     skipWaiting: true,
-    distDir: 'out',
   },
 });
