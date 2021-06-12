@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "build:prod": "next build --prod"
   },
   "dependencies": {
     "export": "^0.1.337",
