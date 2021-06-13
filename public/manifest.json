@@ -16,7 +16,7 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "../pages/index.js",
+    "start_url": "/",
     "display": "standalone",
     "orientation": "portrait",
     "prefer_related_applications":"true"
