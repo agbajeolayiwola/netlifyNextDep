@@ -6,4 +6,13 @@ module.exports = withPWA({
     register: true,
     skipWaiting: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/pages/index.js',
+        destination: '/',
+        permanent: true,
+      },
+    ]
+  },
 });
