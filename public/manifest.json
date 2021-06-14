@@ -18,7 +18,7 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "/index.html",
+    "start_url": "https://60c7cc82ae53be0007ccf5e8--happy-hopper-9c4e58.netlify.app/",
     "display": "standalone",
     "orientation": "portrait",
     "prefer_related_applications":"true"
