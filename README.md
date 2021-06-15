@@ -1,6 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Table of Contents
+- [Getting Started](#getting-started)
+- [Technology Stack](#technology-stack)
+- [Installation and Usage](#installation)
 
 First, run the development server:
 
@@ -9,6 +12,48 @@ npm run dev
 # or
 yarn dev
 ```
+
+# More Recipes
+
+A platform for users to share their awesome and exciting recipes ideas with the world.
+
+<br />
+<br />
+
+<img width="1440" alt="Next-PWA-Boileplate-Deployed-On-Netlfy" src="/Screenshot (124).jpg">
+<br />
+
+## Getting Started
+This is a javascript application built with [**NextJs**](https://nextjs.org/) Boilerplate for hosting on netlify  using [**Netlify CLI**](https://www.netlify.com/).
+
+## Technology Stack
+**UI & Templates**
+1. NextJS
+2. JSX
+3. Javascript
+4. Next-PWA
+
+## Installation
+
+1. Install [**NextJS**](https://nodejs.org/en/).
+1. Install [**Next-Pwa**](https://www.postgresql.org/) .
+1. To Clone the Run `npm clone https://github.com/agbajeolayiwola/netlifyNextDep.git`
+1. Run `npm install` on the terminal to install Dependecies
+1. Run `npm run dev`
+
+
+## Features
+Next Pwa consists of the following features:
+
+### Authentication
+
+- Installable in anybrowser that surports PWA (Progressive Web APP) Functions
+- Push Notifications
+- Safety
+- Self Updates
+- Discoverability And Easy Installation
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
