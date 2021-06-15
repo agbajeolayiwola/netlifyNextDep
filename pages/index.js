@@ -4,13 +4,6 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
-  if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('../public/sw.js').then(function(registration) {
-      console.log('ServiceWorker registration successful with scope:',  registration.scope);
-    }).catch(function(error) {
-      console.log('ServiceWorker registration failed:', errror);
-    });
-  }
   return (
     <div className={styles.container}>
       <Head>
