@@ -13,7 +13,7 @@ npm run dev
 yarn dev
 ```
 
-# More Recipes
+# Next PWA BoilerPlate
 
 A platform for users to share their awesome and exciting recipes ideas with the world.
 
