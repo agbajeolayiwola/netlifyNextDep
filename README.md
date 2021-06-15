@@ -20,7 +20,7 @@ A platform for users to share their awesome and exciting recipes ideas with the 
 <br />
 <br />
 
-<img width="1440" alt="Next-PWA-Boileplate-Deployed-On-Netlfy" src="/Screenshot (124).jpg">
+<img width="1440" alt="Next-PWA-Boileplate-Deployed-On-Netlfy" src="Screenshot (124).jpg">
 <br />
 
 ## Getting Started
