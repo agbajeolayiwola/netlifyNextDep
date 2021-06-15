@@ -19,7 +19,7 @@
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
     "start_url": "https://happy-hopper-9c4e58.netlify.app/index.html",
-    "scope" : "https://happy-hopper-9c4e58.netlify.app/index.html",
+    "scope" : "/",
     "display": "standalone",
     "orientation": "portrait",
     "prefer_related_applications": true
