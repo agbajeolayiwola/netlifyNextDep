@@ -18,7 +18,7 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "_next/static",
+    "start_url": "/",
     "scope" : "/",
     "display": "standalone",
     "orientation": "portrait",
