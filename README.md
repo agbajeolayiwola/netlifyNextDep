@@ -29,8 +29,10 @@ This is a javascript application built with [**NextJs**](https://nextjs.org/) Bo
 
 ## Installation
 
-1. Install [**NextJS**](https://nodejs.org/en/).
-1. Install [**Next-Pwa**](https://www.postgresql.org/) .
+1. Install [**NextJS**](https://nextjs.org/).
+1. Install [**Next-Pwa**](https://www.npmjs.com/package/next-pwa) .
+1. create manifest.js in public directory
+1. create a _document.js file import Document,{head html main nextscript} from next/document 
 1. To Clone the Run `npm clone https://github.com/agbajeolayiwola/netlifyNextDep.git`
 1. Run `npm install` on the terminal to install Dependecies
 1. Run `npm run dev` or `yarn dev`
@@ -38,8 +40,6 @@ This is a javascript application built with [**NextJs**](https://nextjs.org/) Bo
 
 ## Features
 Next Pwa consists of the following features:
-
-### Authentication
 
 - Installable in anybrowser that surports PWA (Progressive Web APP) Functions
 - Push Notifications
@@ -68,6 +68,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Netlify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+delete generated public/sw.js file
+manually register service worker in _app.js file
+publish directory to 'out' build command 'npm run build'
+create a new public/sw.js file add 'self.addEventListener('fetch', function(event) {})'
+Replace scope value in pages/_app.js with 'netlify-deploy-link'.
+N.B Do not use netlify preview link 
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
