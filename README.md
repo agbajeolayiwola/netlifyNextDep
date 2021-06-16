@@ -5,13 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [Technology Stack](#technology-stack)
 - [Installation and Usage](#installation)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
 # Next PWA BoilerPlate
 
@@ -39,7 +33,7 @@ This is a javascript application built with [**NextJs**](https://nextjs.org/) Bo
 1. Install [**Next-Pwa**](https://www.postgresql.org/) .
 1. To Clone the Run `npm clone https://github.com/agbajeolayiwola/netlifyNextDep.git`
 1. Run `npm install` on the terminal to install Dependecies
-1. Run `npm run dev`
+1. Run `npm run dev` or `yarn dev`
 
 
 ## Features
