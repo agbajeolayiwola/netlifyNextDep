@@ -73,6 +73,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 - Publish directory to 'out' build command 'npm run build'
 - Create a new public/sw.js file add 'self.addEventListener('fetch', function(event) {})'
 - Replace scope value in pages/_app.js with 'netlify-deploy-link'.
+- use netlify UI to or nrtlify cli to connect github files to netlify domain (https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/)
 - N.B Do not use netlify preview link 
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
