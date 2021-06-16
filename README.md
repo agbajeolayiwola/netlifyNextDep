@@ -68,11 +68,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Netlify
 
-delete generated public/sw.js file
-manually register service worker in _app.js file
-publish directory to 'out' build command 'npm run build'
-create a new public/sw.js file add 'self.addEventListener('fetch', function(event) {})'
-Replace scope value in pages/_app.js with 'netlify-deploy-link'.
-N.B Do not use netlify preview link 
+- Delete generated public/sw.js file
+- Manually register service worker in _app.js file
+- Publish directory to 'out' build command 'npm run build'
+- Create a new public/sw.js file add 'self.addEventListener('fetch', function(event) {})'
+- Replace scope value in pages/_app.js with 'netlify-deploy-link'.
+- N.B Do not use netlify preview link 
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
